@@ -10,5 +10,7 @@ chmod +x crt.sh
 # Usage: 			
 ./crt.sh domain.name
 
+# Output
+./crt.sh  domian.name > output.txt
 
 
