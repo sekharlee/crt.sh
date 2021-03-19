@@ -1,10 +1,13 @@
 # crt.sh
 Without using  JSON processor(jq) we can extract subdomains from crt.sh  by using this bash script.
 
-Setup:
-git clone 
-cd c
-Usage: 
+# Setup:
+git clone https://github.com/sekharlee/crt.sh_shell.git	   
+
+cd crt.sh_shell   
+chmod +x crt.sh			
+				
+# Usage: 			
 ./crt.sh domain.name
 
 
