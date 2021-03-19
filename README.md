@@ -4,7 +4,7 @@ Without using  JSON processor(jq) we can extract subdomains from crt.sh  by usin
 # Setup:
 git clone https://github.com/sekharlee/crt_shell.git	   
 
-cd crt.sh_shell   
+cd crt_shell   
 chmod +x crt.sh			
 				
 # Usage: 			
