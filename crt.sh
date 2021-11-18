@@ -14,5 +14,5 @@ if [[ -z "$1" ]]; then
    exit 1
 else
    
-curl -s "https://crt.sh/?q=$1" |grep "$1"|cut -d 'T' -f 2|cut -d 'D' -f2|cut -d '<' -f1 |cut -d '>' -f2 |sort -u |grep -iv "&" |grep -iv "*" |sort -u
+curl -s "https://crt.sh/?q=$1" |grep "$1"|cut -d 'T' -f 2|cut -d 'D' -f2|cut -d '<' -f1 |cut -d '>' -f2 |sort -u |grep -iv "&" |grep -iv "*" |grep -xv "I"|sort -u|grep  "\S"
 fi
